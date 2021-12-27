@@ -13,7 +13,7 @@
                 <button id="star">STAR</button>
             </div>
             <div id="ruedaContenedor">
-            <img id="rueda"src="STARTER/images/gear.svg" alt="">
+            <img id="rueda"src="images/gear.svg" alt="">
             </div>
         </div>
     </body>
