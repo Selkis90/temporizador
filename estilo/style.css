@@ -1,0 +1,66 @@
+body{
+    background: #2B2A30;
+}
+
+#contenedorCirculo{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 100px auto 0 auto;
+    background: rgb(47,47,51);
+    background: radial-gradient(circle, rgba(47,47,51,1) 0%, rgba(28,28,31,1) 100%);
+    box-shadow: rgb(0 0 0 / 80%) 0px 20px 40px, rgb(255 255 255 / 20%) 0px -5px 50px;
+
+    border: 10px solid #902010;
+
+}
+
+#contenedorCirculo{
+    font-family: "Bebas";
+}
+
+
+@font-face {
+    font-family: 'Azo Sans Bk';
+    src: url("STARTER/fonts/bebasneue-book-webfont.woff2") format("woff2"), url("/css/casalimpia/fonts/AzoSans-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+#contenedorHora{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 100px auto  0 110px;
+    color: white;
+
+}
+
+#hora{
+    font-size: 120px;
+    display: block;
+    text-align: left;
+
+}
+
+#ruedaContenedor{
+    width: 100px;
+    height: 100px;
+    margin: 100px auto 0 auto;
+    text-align: center;
+
+}
+/*color: #585858;*/
+#rueda{
+    filter: invert(0.4);
+}
+#star{
+    background: none;
+    color:white;
+    border: none;
+    font-size: larger;
+    margin-left: 70px;
+}
+
+
