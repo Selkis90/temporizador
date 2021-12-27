@@ -15,17 +15,21 @@ body{
 
 }
 
-#contenedorCirculo{
+#contenedorHora{
     font-family: "Bebas";
 }
 
+.hora{
+    font-family: "Bebas";
+}
 
+/*revisar linea 29 no reconoce la ruta para llamar el fonts*/
 @font-face {
-    font-family: 'Azo Sans Bk';
-    src: url("fonts/bebasneue-book-webfont.woff2") format("woff2"), url("fonts/bebasneue-book-webfont.woff") format("woff");
+    font-family: 'Bebas';
+    src: url("~/bebasneue-book-webfont.woff2") format("woff2"), url("~/bebasneue-book-webfont.woff") format("woff");
     font-weight: 900;
     font-style: normal;
-    font-display: swap;
+    font-display: normal;
 }
 
 #contenedorHora{
