@@ -26,11 +26,13 @@ body{
 /*revisar linea 29 no reconoce la ruta para llamar el fonts*/
 @font-face {
     font-family: 'Bebas';
-    src: url("~/bebasneue-book-webfont.woff2") format("woff2"), url("~/bebasneue-book-webfont.woff") format("woff");
+    src: url("fonts/bebasneue-book-webfont.woff2") format("woff2"), url("fonts/bebasneue-book-webfont.woff") format("woff");
     font-weight: 900;
     font-style: normal;
     font-display: normal;
 }
+
+
 
 #contenedorHora{
     width: 200px;
